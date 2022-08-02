@@ -102,4 +102,3 @@ operators.map(item => {
     let opsArr = ["÷", "×", "-", "+"];
     item.addEventListener("click", () => addOperator(opsArr[operators.indexOf(item)]));
 });
-});
